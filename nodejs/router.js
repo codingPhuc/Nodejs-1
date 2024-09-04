@@ -1,4 +1,4 @@
-const { helloController, pingController } = requestuire("./controller");
+const { helloController, pingController } = require("./controller");
 const HTTP_METHODS = {
   GET: "GET",
   POST: "POST",
