@@ -1,12 +1,12 @@
-const pingController = (request, response) => {
+function pingController(request, response) {
   response.writeHead(200, { "Content-Type": "text/plain" });
   response.end("pong");
-};
+}
 
-const helloController = (request, response) => {
+function helloController(request, response) {
   response.writeHead(200, { "Content-Type": "text/plain" });
   response.end("Hello world");
-};
+}
 
 module.exports = {
   pingController,
